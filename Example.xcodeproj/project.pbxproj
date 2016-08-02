@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E70AB931D09645100C7D1BA /* Example.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E70AB921D09645100C7D1BA /* Example.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E70AB9A1D09645100C7D1BA /* Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E70AB8F1D09645100C7D1BA /* Example.framework */; };
-		3E70AB9F1D09645100C7D1BA /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70AB9E1D09645100C7D1BA /* ExampleTests.swift */; };
+		3EAD0E191D290D1E0021CC1F /* UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD0E181D290D1E0021CC1F /* UISwitch.swift */; };
+		3EC1A3C01D3D02EE0003D1C8 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC1A3BF1D3D02EE0003D1C8 /* UITextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +22,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E70AB8F1D09645100C7D1BA /* Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E70AB921D09645100C7D1BA /* Example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
-		3E70AB941D09645100C7D1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E70AB991D09645100C7D1BA /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E70AB9E1D09645100C7D1BA /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
-		3E70ABA01D09645100C7D1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E053DE01D48EFAD0091D4ED /* ForEach.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ForEach.playground; sourceTree = "<group>"; };
+		3E70ABA91D0964B900C7D1BA /* File.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = File.playground; sourceTree = "<group>"; };
+		3EAD0E181D290D1E0021CC1F /* UISwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISwitch.swift; sourceTree = "<group>"; };
+		3EC1A3BF1D3D02EE0003D1C8 /* UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		3ED548BA1D1E18E1002525FA /* Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED548BB1D1E18E1002525FA /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED548BD1D1E1A5B002525FA /* UILabel.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UILabel.playground; sourceTree = "<group>"; };
+		3ED548BF1D1F5CCE002525FA /* UIButton.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIButton.playground; sourceTree = "<group>"; };
+		3ED548C21D1FC2F2002525FA /* UITextField.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UITextField.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,47 +45,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E70AB9A1D09645100C7D1BA /* Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E053DDF1D48EF690091D4ED /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				3E053DE01D48EFAD0091D4ED /* ForEach.playground */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		3E70AB851D09645100C7D1BA = {
 			isa = PBXGroup;
 			children = (
-				3E70AB911D09645100C7D1BA /* Example */,
-				3E70AB9D1D09645100C7D1BA /* ExampleTests */,
-				3E70AB901D09645100C7D1BA /* Products */,
+				3E053DDF1D48EF690091D4ED /* New Group */,
+				3EC1A3BE1D3D028E0003D1C8 /* 多行文本输入框(UITextView) */,
+				3EAD0E171D290CEE0021CC1F /* 开关按钮（UISwitch） */,
+				3ED548C11D1FC2C7002525FA /* 文本输入框(UITextField) */,
+				3ED548BE1D1F5C9F002525FA /* 按钮(UIButtion) */,
+				3ED548BC1D1E193B002525FA /* 文本标签(UILabel) */,
+				3E70AB911D09645100C7D1BA /* 文件操作 */,
+				3ED548BA1D1E18E1002525FA /* Example.framework */,
+				3ED548BB1D1E18E1002525FA /* ExampleTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
-		3E70AB901D09645100C7D1BA /* Products */ = {
+		3E70AB911D09645100C7D1BA /* 文件操作 */ = {
 			isa = PBXGroup;
 			children = (
-				3E70AB8F1D09645100C7D1BA /* Example.framework */,
-				3E70AB991D09645100C7D1BA /* ExampleTests.xctest */,
+				3E70ABA91D0964B900C7D1BA /* File.playground */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3E70AB911D09645100C7D1BA /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				3E70AB921D09645100C7D1BA /* Example.h */,
-				3E70AB941D09645100C7D1BA /* Info.plist */,
-			);
+			name = "文件操作";
 			path = Example;
 			sourceTree = "<group>";
 		};
-		3E70AB9D1D09645100C7D1BA /* ExampleTests */ = {
+		3EAD0E171D290CEE0021CC1F /* 开关按钮（UISwitch） */ = {
 			isa = PBXGroup;
 			children = (
-				3E70AB9E1D09645100C7D1BA /* ExampleTests.swift */,
-				3E70ABA01D09645100C7D1BA /* Info.plist */,
+				3EAD0E181D290D1E0021CC1F /* UISwitch.swift */,
 			);
-			path = ExampleTests;
+			name = "开关按钮（UISwitch）";
+			sourceTree = "<group>";
+		};
+		3EC1A3BE1D3D028E0003D1C8 /* 多行文本输入框(UITextView) */ = {
+			isa = PBXGroup;
+			children = (
+				3EC1A3BF1D3D02EE0003D1C8 /* UITextView.swift */,
+			);
+			name = "多行文本输入框(UITextView)";
+			sourceTree = "<group>";
+		};
+		3ED548BC1D1E193B002525FA /* 文本标签(UILabel) */ = {
+			isa = PBXGroup;
+			children = (
+				3ED548BD1D1E1A5B002525FA /* UILabel.playground */,
+			);
+			name = "文本标签(UILabel)";
+			sourceTree = "<group>";
+		};
+		3ED548BE1D1F5C9F002525FA /* 按钮(UIButtion) */ = {
+			isa = PBXGroup;
+			children = (
+				3ED548BF1D1F5CCE002525FA /* UIButton.playground */,
+			);
+			name = "按钮(UIButtion)";
+			sourceTree = "<group>";
+		};
+		3ED548C11D1FC2C7002525FA /* 文本输入框(UITextField) */ = {
+			isa = PBXGroup;
+			children = (
+				3ED548C21D1FC2F2002525FA /* UITextField.playground */,
+			);
+			name = "文本输入框(UITextField)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,7 +130,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E70AB931D09645100C7D1BA /* Example.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +151,7 @@
 			);
 			name = Example;
 			productName = Example;
-			productReference = 3E70AB8F1D09645100C7D1BA /* Example.framework */;
+			productReference = 3ED548BA1D1E18E1002525FA /* Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3E70AB981D09645100C7D1BA /* ExampleTests */ = {
@@ -133,7 +169,7 @@
 			);
 			name = ExampleTests;
 			productName = ExampleTests;
-			productReference = 3E70AB991D09645100C7D1BA /* ExampleTests.xctest */;
+			productReference = 3ED548BB1D1E18E1002525FA /* ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -162,7 +198,7 @@
 				en,
 			);
 			mainGroup = 3E70AB851D09645100C7D1BA;
-			productRefGroup = 3E70AB901D09645100C7D1BA /* Products */;
+			productRefGroup = 3E70AB851D09645100C7D1BA;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -194,6 +230,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EAD0E191D290D1E0021CC1F /* UISwitch.swift in Sources */,
+				3EC1A3C01D3D02EE0003D1C8 /* UITextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E70AB9F1D09645100C7D1BA /* ExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +347,7 @@
 		3E70ABA41D09645100C7D1BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +358,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.leo.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		3E70ABA51D09645100C7D1BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -378,6 +418,7 @@
 				3E70ABA51D09645100C7D1BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E70ABA61D09645100C7D1BA /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +427,7 @@
 				3E70ABA81D09645100C7D1BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
