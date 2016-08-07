@@ -28,6 +28,7 @@
 		3E70ABA91D0964B900C7D1BA /* File.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = File.playground; sourceTree = "<group>"; };
 		3E70B69F1D52D1DE009F7075 /* UISegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISegmentedControl.swift; sourceTree = "<group>"; };
 		3E8AB3831D537E0A00610527 /* UIImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewController.swift; sourceTree = "<group>"; };
+		3E8AB3871D56D46C00610527 /* Earnings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Earnings.playground; sourceTree = "<group>"; };
 		3EAD0E181D290D1E0021CC1F /* UISwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISwitch.swift; sourceTree = "<group>"; };
 		3EC1A3BF1D3D02EE0003D1C8 /* UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
 		3ED548BA1D1E18E1002525FA /* Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				3E053DE01D48EFAD0091D4ED /* ForEach.playground */,
+				3E8AB3871D56D46C00610527 /* Earnings.playground */,
 			);
 			name = "Test Group";
 			sourceTree = "<group>";
